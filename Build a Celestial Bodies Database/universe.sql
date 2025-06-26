@@ -281,7 +281,10 @@ INSERT INTO public.galaxy VALUES (6, 'Large Magellanic Cloud', 'Satellite galaxy
 --
 -- Data for Name: galaxy_type; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
-
+INSERT INTO public.galaxy_type (name, description) VALUES 
+('Spiral', 'A galaxy with a spiral arm structure'),
+('Elliptical', 'A round, smooth, featureless galaxy'),
+('Irregular', 'A galaxy with no defined shape');
 
 
 --
